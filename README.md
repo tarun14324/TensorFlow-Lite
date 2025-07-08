@@ -13,13 +13,23 @@ This is a sample Android app built using **Jetpack Compose** that demonstrates h
 ---
 
 ## 📦 Project Structure
+
 ├── app/
+
 │ └── src/
+
 │ └── main/
+
 │ ├── java/
+
 │ │ └── com.example.tensorflowlite/
+
 │ │ ├── MainActivity.kt
+
 │ │ ├── InferenceScreen.kt
+
 │ │ └── ModelLoader.kt
+
 │ └── assets/
+
 │ ├── model.tflite
