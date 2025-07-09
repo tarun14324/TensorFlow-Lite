@@ -1,3 +1,6 @@
+import com.android.build.api.dsl.AaptOptions
+import com.android.build.api.dsl.AndroidResources
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -37,9 +40,7 @@ android {
     buildFeatures {
         compose = true
     }
-    aaptOptions {
-        noCompress += "tflite"
-    }
+    androidResources.noCompress += "tflite"
 }
 
 dependencies {
